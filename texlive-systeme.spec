@@ -51,6 +51,7 @@ termes et les signes sont alignes verticalement.
 %doc %{_texmfdistdir}/doc/generic/systeme/README
 %doc %{_texmfdistdir}/doc/generic/systeme/systeme_doc_fr.pdf
 %doc %{_texmfdistdir}/doc/generic/systeme/systeme_doc_fr.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -61,3 +62,5 @@ termes et les signes sont alignes verticalement.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
