@@ -1,12 +1,12 @@
-# revision 23336
+# revision 32473
 # category Package
 # catalog-ctan /macros/generic/systeme
-# catalog-date 2011-06-24 11:48:53 +0200
+# catalog-date 2013-12-23 00:48:33 +0100
 # catalog-license lppl1.3
-# catalog-version 0.2b
+# catalog-version 0.3
 Name:		texlive-systeme
-Version:	0.2b
-Release:	6
+Version:	0.30
+Release:	1
 Summary:	Format systems of equations
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/generic/systeme
@@ -39,7 +39,6 @@ termes et les signes sont alignes verticalement.
 %files
 %{_texmfdistdir}/tex/generic/systeme/systeme.sty
 %{_texmfdistdir}/tex/generic/systeme/systeme.tex
-%doc %{_texmfdistdir}/doc/generic/systeme/README
 %doc %{_texmfdistdir}/doc/generic/systeme/systeme_doc_fr.pdf
 %doc %{_texmfdistdir}/doc/generic/systeme/systeme_doc_fr.tex
 
@@ -52,17 +51,3 @@ termes et les signes sont alignes verticalement.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 0.2b-2
-+ Revision: 756424
-- Rebuild to reduce used resources
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 0.2b-1
-+ Revision: 719630
-- texlive-systeme
-- texlive-systeme
-- texlive-systeme
-- texlive-systeme
-
