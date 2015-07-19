@@ -6,7 +6,7 @@
 # catalog-version 0.3
 Name:		texlive-systeme
 Version:	0.30
-Release:	4
+Release:	5
 Summary:	Format systems of equations
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/generic/systeme
