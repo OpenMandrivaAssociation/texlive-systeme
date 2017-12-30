@@ -5,8 +5,8 @@
 # catalog-license lppl1.3
 # catalog-version 0.3
 Name:		texlive-systeme
-Version:	0.30
-Release:	5
+Version:	0.3
+Release:	1
 Summary:	Format systems of equations
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/generic/systeme
