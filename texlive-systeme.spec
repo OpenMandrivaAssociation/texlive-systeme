@@ -1,11 +1,5 @@
-# revision 32473
-# category Package
-# catalog-ctan /macros/generic/systeme
-# catalog-date 2013-12-23 00:48:33 +0100
-# catalog-license lppl1.3
-# catalog-version 0.3
 Name:		texlive-systeme
-Version:	0.3
+Version:	0.31
 Release:	1
 Summary:	Format systems of equations
 Group:		Publishing
@@ -37,10 +31,8 @@ termes et les signes sont alignes verticalement.
 
 #-----------------------------------------------------------------------
 %files
-%{_texmfdistdir}/tex/generic/systeme/systeme.sty
-%{_texmfdistdir}/tex/generic/systeme/systeme.tex
-%doc %{_texmfdistdir}/doc/generic/systeme/systeme_doc_fr.pdf
-%doc %{_texmfdistdir}/doc/generic/systeme/systeme_doc_fr.tex
+%{_texmfdistdir}/tex/generic/systeme
+%doc %{_texmfdistdir}/doc/generic/systeme
 
 #-----------------------------------------------------------------------
 %prep
