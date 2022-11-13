@@ -1,12 +1,12 @@
 Name:		texlive-systeme
-Version:	0.32
+Version:	55015
 Release:	1
 Summary:	Format systems of equations
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/generic/systeme
 License:	LPPL1.3
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/systeme.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/systeme.doc.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/systeme.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/systeme.doc.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
@@ -22,12 +22,12 @@ inequations de facon intuitive, et produit un affichage ou les
 termes et les signes sont alignes verticalement.
 
 %post
-    %{_sbindir}/texlive.post
+%{_sbindir}/texlive.post
 
 %postun
-    if [ $1 -eq 0 ]; then
+if [ $1 -eq 0 ]; then
 	%{_sbindir}/texlive.post
-    fi
+fi
 
 #-----------------------------------------------------------------------
 %files
@@ -36,7 +36,7 @@ termes et les signes sont alignes verticalement.
 
 #-----------------------------------------------------------------------
 %prep
-%setup -c -a0 -a1
+%autosetup -p1 -c -a1
 
 %build
 
