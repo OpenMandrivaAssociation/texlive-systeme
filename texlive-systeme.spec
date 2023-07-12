@@ -1,6 +1,6 @@
 Name:		texlive-systeme
-Version:	55015
-Release:	2
+Version:	66655
+Release:	1
 Summary:	Format systems of equations
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/generic/systeme
