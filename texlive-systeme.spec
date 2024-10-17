@@ -3,7 +3,7 @@ Version:	66655
 Release:	1
 Summary:	Format systems of equations
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/generic/systeme
+URL:		https://www.ctan.org/tex-archive/macros/generic/systeme
 License:	LPPL1.3
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/systeme.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/systeme.doc.r%{version}.tar.xz
